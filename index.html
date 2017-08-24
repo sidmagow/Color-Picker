@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>colour picker</title>
+    <link rel="stylesheet" href="style.css" >
+    <script src="jquery.js" rel="script"></script>
+    <script src="js.js" rel="script"></script>
+
+</head>
+<body>
+
+<canvas id="canvas1" style="height: 257px; width: 257px; border: solid 1px black;margin-left: 300px;" ></canvas>
+<div id="draggable" draggable="true" ondragstart="event.dataTransfer.setData('text/plain',null) " style="height: 10px;width: 10px;border: solid 1px black;/* margin-left: 320px; */position: absolute;border-radius: 4px;left: 320px;top: 35px;">
+</div>
+<canvas id="canvas2" style="width:151px;height: 275px;margin-left:200px;border: solid 1px black" ></canvas>
+<span id="myspan"></span>
+<div id="span1" style="font-size: large; text-align: center"></div>
+
+
+<canvas id="scrollcanvas" style="width: 767px;height:12px; border: solid 1px black; margin-left: 300px; margin-top: 10px; " ></canvas><span id="scrollspan"></span>
+
+
+</body>
+</html>
